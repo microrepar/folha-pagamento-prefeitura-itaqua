@@ -603,7 +603,7 @@ def get_fig_valor_bruto_mensal_por_nome(dataframe: pd.DataFrame):
                                         labels={'matricula': 'RGF', 'valor_bruto': 'Pagamento'},
                                         hover_name='nome',
                                         hover_data=['cargo', 'matricula'],
-                                        title=f'Valor pagamento mensal por nome desde {dataframe["competencia"].unique()[0]}')
+                                        title=f'Valor pagamento mensal por nome desde {df["competencia"].unique()[0]}')
 
     fig_valor_bruto_mensal_por_nome.update_layout(yaxis_title='Pagamento',
                                             xaxis_title='Competência')
