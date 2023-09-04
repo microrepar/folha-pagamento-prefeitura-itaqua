@@ -6,6 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 from streamlit_plotly_events import plotly_events
+from streamlit_extras.metric_cards import style_metric_cards
 
 from utils import formata_valores
 
@@ -1018,6 +1019,7 @@ if not df_result.empty:
         qtde_cargos = len(df_result['cargo'].unique())
         st.metric('Quantidade de matrículas', qtde_matriculas)
         st.metric(f'Cargos - período selecionado', qtde_cargos)
+    style_metric_cards()
 
     st.divider()
 
