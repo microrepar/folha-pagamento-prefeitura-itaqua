@@ -1,0 +1,12 @@
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: itaqua_dash_session_id
+credentials:
+  usernames:
+    admin:
+      email: admin@admin.com.br
+      name: "Maur\xEDcio Silva"
+      password: $2b$12$kLfm89ZWxQ7ZJ07JZPEdi.iVG3S8Ydi2nYkUmZetyEIjqCmbKAyM.
+preauthorized:
+  emails: []
