@@ -461,7 +461,7 @@ def dash():
             cargos = []
 
         if not btn_reset_cargos_selecionados:
-        cargos = st.session_state.get_and_set_ultimos_cargos_selecionados(cargos_matriculas_selecionadas)
+            cargos = st.session_state.get_and_set_ultimos_cargos_selecionados(cargos_matriculas_selecionadas)
 
         if st.session_state.flag_cargos_default_top_15:
             st.session_state.flag_cargos_default_top_15 = False        
