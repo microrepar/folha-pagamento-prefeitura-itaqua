@@ -548,7 +548,7 @@ def dash():
 
     #################CONFIG_MATRICULAS########################
     placeholder_todas_matriculas          = st.sidebar.empty()
-    placeholder_multselec_matriculas       = st.sidebar.empty()
+    placeholder_multselec_matriculas      = st.sidebar.empty()
     placeholder_btn_memo_matriculas       = st.sidebar.empty()
     placeholder_btn_reset_memo_matriculas = st.sidebar.empty()
     placeholder_matriculas_selecionadas   = st.sidebar.empty()
